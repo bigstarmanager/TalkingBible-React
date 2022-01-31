@@ -1,0 +1,51 @@
+
+
+.root {
+    font-family: 'Lato';
+     /* position: relative; */
+     color: #fff;
+     background: none;
+     min-width: '100%';
+     padding-bottom: 2rem;
+   }
+   
+   .content {
+     width: 100vw;
+     min-height: 100vh;
+     padding: 0 1.5em;
+     box-sizing: border-box;
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .image {
+     position: absolute;
+     left: 0;
+     top: 0;
+     overflow: hidden;
+     display: block;
+     width: 100vw;
+     height: 100vh;
+     object-fit: cover;
+     transition: opacity 1s ease;
+     opacity: 0;
+   }
+   
+   .active {
+       opacity: 1;
+   }
+   
+   .title {
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     position: relative;
+     font-weight: 300;
+     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+     margin: 0;
+     padding: 0;
+   
+   }
+   
